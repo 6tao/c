@@ -1,0 +1,50 @@
+7_14 总结
+我看你写了一下 a++ 和 ++a的这个 ， 你现在理解这个区别了没有 ？
+
+还有char int float 类型的转化 
+	现在知道你发的demo3里面的    a = c1 输出以后是107 不?
+  	你百度一下ASCII码表  你就知道为啥了  他里面十进制数107 对应的字符就是k
+	今天看看ASCII码表留个映像，这个是网址
+	http://baike.baidu.com/link?url=7Y8EwvgFCji6dU1xROuwbhzfvLsZ5TW2AW_53jifW6t3vXQB2njvZfTpRhEdy9cPlU4zftnDnVpHQ5EKGz7LuzKAzkRszeyHfd_W6JV9uCKKgdq5okGm6K-zcGHiKQ-dXnYWboZSCrngVFkmaJDSQq
+逗号表达式不知道你理解没 ？
+	a=(a=3*5,a*4)  这个a 最后等于多少？
+	算一下  
+	在百度一下逗号表达式
+	对应你的demo4看一下
+	不理解问我
+	题目：以下程序的输出结果是：
+main()
+{
+int x,y,z;
+x=y=1;
+z=x++,y++,++y;
+printf("%d,%d,%d\n",x,y,z);
+}
+[A]2，3，3 [B]2，3，2 [C]2，3，1 [D]1，1，1
+
+自己做一下顺便想一下为啥  如果不知道
+http://baike.baidu.com/link?url=c-8NV0s8oBTnJbJTtkM-vuCY7jSV7c0sXYKMOfeh9jTOXKOQzSCYkqhUpNfnluSHM2oPPFzTLgj0sCqES3U45ck96POSX9cv82J60OpYQbK83bB6aH5fo3E4cRlAJ0JR5L9qYIZERw3T2vNiu5GDXq
+这个网址有答案
+
+
+例题1：（a = 3，b = 5，b+ = a，c = b* 5），求逗号表达式的值？
+例题2:若已定义x和y为double类型，则表达式：x=1,y=x+3/2的值是
+A) 1 　B) 2　C) 2.0　D) 2.5
+例题3：若t为double类型，表达式t=1,t+5,t++的值是
+A) 1　B) 6.0　C) 2.0　D) 1.0
+
+这三道题做一下 
+做完以后对答案 
+答案在上面那个网址里面，还有解析
+
+%d %5d %o %x %f %lf %e  对应什么意思你知道不？？   如果知道记在笔记本上  不知道了的话百度一下
+这个很重要  记一下
+
+sizeof  : sizeof是C/C++中的一个操作符（operator），简单的说其作用就是返回一个对象或者类型所占的内存字节数。 
+这个知道不 ？  不知道自己百度 并且记下来
+
+
+好了 ，你自己看一下  顺便看看书
+
+
+

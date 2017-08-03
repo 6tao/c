@@ -1,0 +1,36 @@
+#include<stdio.h>
+void main()
+{
+	double f,p,w,s,d;
+	p=7;
+	printf("请输入路程/公里\n"); 
+	scanf("%lf",&s);
+	printf("请输入重量/吨\n");
+	scanf("%lf",&w);
+	if(s<250)
+	{
+		d=0;
+	}
+	if(250<=s<500)
+	{
+		d=0.02;
+	}
+	if(500<=s<1000)
+	{
+		d=0.05;
+	}
+	if(1000<=s<2000)
+	{
+		d=0.08;
+	}
+	if(2000<=s<3000)
+	{
+		d=0.10;
+	}
+	if(3000<=s)
+	{
+		d=0.15;
+	}
+	f=p*w*s*(1-d);
+	printf("f=%lf",f);
+} 
